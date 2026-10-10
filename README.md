@@ -18,7 +18,7 @@ Telecharger la derniere version dans l'onglet **[Releases](https://github.com/Ag
 2. Lancer l'installeur (installation silencieuse, oneClick, pour l'utilisateur courant)
 3. L'application se lance automatiquement
 
-Emplacement : `%LOCALAPPDATA%\Programs\Conditionnement\Conditionnement.exe`
+Emplacement : `%LOCALAPPDATA%\Programs\agriplus_app_pickup-tracking-for-packaging-assembly-line\Conditionnement.exe`
 
 ### macOS
 1. Telecharger le `.dmg`

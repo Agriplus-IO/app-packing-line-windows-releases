@@ -10,7 +10,7 @@ echo ============================================
 echo.
 
 :: Verifier que l'application est installee pour ce compte
-set APP_EXE=%LOCALAPPDATA%\Programs\Conditionnement\Conditionnement.exe
+set APP_EXE=%LOCALAPPDATA%\Programs\agriplus_app_pickup-tracking-for-packaging-assembly-line\Conditionnement.exe
 if not exist "%APP_EXE%" (
     echo ERREUR : Conditionnement n'est pas installe pour le compte "%USERNAME%" :
     echo   %APP_EXE%
@@ -21,7 +21,7 @@ if not exist "%APP_EXE%" (
 
 :: Copier le script de boucle a cote de l'application
 set LOOP_SRC=%~dp0kiosk-loop.bat
-set LOOP_DST=%LOCALAPPDATA%\Programs\Conditionnement\kiosk-loop.bat
+set LOOP_DST=%LOCALAPPDATA%\Programs\agriplus_app_pickup-tracking-for-packaging-assembly-line\kiosk-loop.bat
 
 echo Copie du script de boucle...
 copy /y "%LOOP_SRC%" "%LOOP_DST%" >nul

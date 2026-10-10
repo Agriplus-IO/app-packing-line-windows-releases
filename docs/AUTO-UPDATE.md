@@ -43,6 +43,13 @@ GitHub Actions se declenche automatiquement et publie la release.
 Le tag doit correspondre a la version de `package.json` : c'est elle qui est inscrite
 dans `latest.yml` et comparee par l'application.
 
+## Journal des mises a jour
+
+Depuis la 2.8.23, l'application ecrit un journal des verifications, telechargements et erreurs :
+- Windows : `%APPDATA%\Conditionnement\logs\updater.log`
+- macOS : `~/Library/Application Support/Conditionnement/logs/updater.log`
+- Acces direct : menu **Aide > Afficher le journal des mises a jour**
+
 ## Verifier que l'auto-update fonctionne
 
 L'app log les evenements de mise a jour dans la console Electron (prefixe `[Main][Updater]`).

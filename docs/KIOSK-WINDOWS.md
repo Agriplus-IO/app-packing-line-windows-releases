@@ -18,7 +18,7 @@ Au demarrage du PC :
 
 - Windows 11
 - Conditionnement installe **depuis le compte kiosque** (installation par utilisateur) :
-  `%LOCALAPPDATA%\Programs\Conditionnement\Conditionnement.exe`
+  `%LOCALAPPDATA%\Programs\agriplus_app_pickup-tracking-for-packaging-assembly-line\Conditionnement.exe`
 - Un compte administrateur pour la configuration
 
 ---
@@ -43,7 +43,7 @@ ou manuellement :
 **Registry** (pour le compte kiosque uniquement) :
 ```
 HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
-Shell = "%LOCALAPPDATA%\Programs\Conditionnement\kiosk-loop.bat"  (chemin developpe du compte kiosque)
+Shell = "%LOCALAPPDATA%\Programs\agriplus_app_pickup-tracking-for-packaging-assembly-line\kiosk-loop.bat"  (chemin developpe du compte kiosque)
 ```
 
 Le script `kiosk-loop.bat` relance l'application en boucle si elle se ferme ou crash.

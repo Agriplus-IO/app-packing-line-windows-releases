@@ -6,7 +6,7 @@
 
 title Conditionnement - Kiosk
 
-set APP_PATH="%LOCALAPPDATA%\Programs\Conditionnement\Conditionnement.exe"
+set APP_PATH="%LOCALAPPDATA%\Programs\agriplus_app_pickup-tracking-for-packaging-assembly-line\Conditionnement.exe"
 
 :loop
 echo [%date% %time%] Demarrage de Conditionnement...
